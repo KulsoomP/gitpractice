@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #nav {
+        height: 70px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: end;
+      }
+      img {
+        height: 40px;
+        width: 60px;
+        margin-left: 10px;
+      }
+      #subnav {
+        margin-left: 50px;
+        color: antiquewhite;
+        text-align: left;
+      }
+      #subnav a:hover {
+        color: green;
+      }
+      .sb {
+        color: antiquewhite;
+      }
+      #logo {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="father">
+      <div id="nav" class="flex-container">
+        <nav>
+          <div id="logo">
+            <img src="./navlogo.jpg" alt="" />
+          </div>
+          <div id="subnav">
+            <div class="sb" href="">Premium</div>
+            <div class="sb" href="">Support</div>
+            <div class="sb" href="">Download</div>
+            <div class="sb" href="">|</div>
+            <div class="sb" href="">Sign Up</div>
+            <div class="sb" href="">Login</div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
